@@ -35,7 +35,7 @@ class FileInterface:
             return dict(status='ERROR',data=str(e))
     
     def upload(self,filename='', filecontent=''):
-        if (filename==''):
+        if (filename=='' or filecontent==''):
             return None
         try:
             fp = open(filename,'wb+')

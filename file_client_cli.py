@@ -94,7 +94,7 @@ def remote_upload(filename=""):
 if __name__=='__main__':
     server_address=('172.16.16.101',6666)
     remote_list()
-    remote_get('pokijan.jpg')
-    remote_delete('pokijan.jpg')
-    remote_upload('pokijan.jpg')
+    # remote_get('pokijan.jpg')
+    # remote_delete('pokijan.jpg')
+    # remote_upload('halo.txt')
 
